@@ -10,6 +10,7 @@ body{
     padding: 8px 16px;
     border-radius: 20px;
     align-items: center;
+   
 }
 
 
@@ -81,7 +82,10 @@ list-style-type: none;
 .albums p{
     text-align: Left;
 }
-
+.image:hover{
+opacity:0.3;
+cursor: pointer;
+}
 p{
     margin:5px;
 }
@@ -109,4 +113,8 @@ footer button{
 }
 footer p{
     margin-left: 20px;
+}
+li:hover{
+    opacity: 0.5;
+    cursor:pointer;
 }
