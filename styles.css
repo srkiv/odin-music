@@ -4,7 +4,8 @@ body{
     margin: 0 auto;
     padding: 0px;
     color: aliceblue;
-}
+    font-family: 'Roboto', sans-serif;}
+
 .navb{
     padding: 8px 16px;
     border-radius: 20px;
@@ -28,7 +29,8 @@ body{
 .ul-nav{
     display:flex;
     justify-content: space-around;
-    margin-left: 300px;
+    align-items: center;
+    
     
 }
 
@@ -49,7 +51,7 @@ list-style-type: none;
     background-color: rgb(26, 25, 25);
     border-radius: 15px;
     flex:1;
-    max-height: 500px;
+    max-height: 560px;
 }
 .left{
     display: flex;
@@ -63,7 +65,7 @@ list-style-type: none;
     border-radius:15px;
     flex:8;
     overflow-y: scroll;
-    max-height: 500px;
+    max-height: 560px;
 
 }
 .albums{
@@ -100,7 +102,11 @@ footer{
     align-items: center;
 }
 footer button{
-    margin-right: 10px;
-    border-radius:10px;
+    margin-right: 20px;
+    border-radius:20px;
+    padding: 10px 10px;
     
+}
+footer p{
+    margin-left: 20px;
 }
